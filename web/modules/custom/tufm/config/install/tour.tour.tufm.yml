@@ -1,0 +1,32 @@
+id: tufm
+module: tufm
+label: 'Create invoice tour'
+langcode: de
+routes:
+  - route_name: node.add
+
+tips:
+  introduction:
+    id: introduction
+    plugin: text
+    label: 'Erstellen oder bearbeiten von Theorien'
+    body: 'Dies ist eine geleitete Tour zur Erstellung von Theorien'
+    weight: 1
+  first-item:
+    id: first-item
+    plugin: text
+    label: 'Name der Theorie'
+    body: 'Als erstes müssen Sie einen Titel/Name für Ihre Theorie angeben. Wenn Sie Literaturverweise für Ihre Literatur haben erstellen Sie diese bitte bevor Sie mit der Bearbeitung Ihrer Theorie fortfahren.'
+    weight: 2
+    location: bottom
+    attributes:
+      data-id: edit-title-wrapper
+  second-item:
+    id: second-item
+    plugin: text
+    label: 'Literatur'
+    body: 'Wenn Sie Literatur angelegt haben, dann tippen Sie den Titel in das Feld. Das System macht Ihnen dann automatisch Vorschläge.'
+    weight: 3
+    location: top
+    attributes:
+      data-id: field-literatur-values
