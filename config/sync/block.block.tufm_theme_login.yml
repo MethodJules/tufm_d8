@@ -1,0 +1,22 @@
+uuid: 0234150f-7150-4cad-bba6-bc67fb423382
+langcode: de
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: rSOcvT4dutc-jlY657s8Hlhu7h-nX19qIv-U5fWT6xc
+id: tufm_theme_login
+theme: tufm_theme
+region: sidebar_second
+weight: 20
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

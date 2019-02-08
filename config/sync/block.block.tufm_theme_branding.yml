@@ -1,0 +1,25 @@
+uuid: e1f86d71-2587-4e9f-a61a-02621894f0db
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: 0bwHZJRPK5DsIcmhHKPMiw-PoMzxGTFInwAxPH_1Yxc
+id: tufm_theme_branding
+theme: tufm_theme
+region: header_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

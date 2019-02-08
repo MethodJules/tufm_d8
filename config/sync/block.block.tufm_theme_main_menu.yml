@@ -1,0 +1,26 @@
+uuid: 14f2829e-21ce-4232-a3ce-147a8a28a908
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: hkuWuUM38u_5b8bHcKud1MB1SF63u6O_eQouSmy6CF8
+id: tufm_theme_main_menu
+theme: tufm_theme
+region: navbar
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main menu'
+  provider: system
+  label_display: '1'
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: ec6eb55c-6072-47aa-9a7f-8d39bf6ea9d0
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: ktollu1F456i89BOXhR5XyC9zhmKH-OsW0M4MF-Yy1A
+id: tufm_theme_breadcrumbs
+theme: tufm_theme
+region: content_prefix
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

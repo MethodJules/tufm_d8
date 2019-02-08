@@ -1,0 +1,14 @@
+uuid: 25f94570-b972-4abf-8504-571f7775f485
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - hoferj@uni-hildesheim.de
+reply: ''
+weight: 0
+message: 'Ihre Nachricht wurde gesendet.'
+redirect: ''

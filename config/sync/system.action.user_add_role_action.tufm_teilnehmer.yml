@@ -1,0 +1,14 @@
+uuid: 374beced-9d13-44fb-9867-a3ddff081c71
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.tufm_teilnehmer
+  module:
+    - user
+id: user_add_role_action.tufm_teilnehmer
+label: 'Den ausgewählten Benutzern die Rolle TuFM-Teilnehmer zuweisen'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: tufm_teilnehmer

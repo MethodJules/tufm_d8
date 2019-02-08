@@ -1,0 +1,22 @@
+uuid: f59e7c28-4860-440a-a813-296c2189228e
+langcode: de
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: dTK7Ep5hg2ZM6_G2xvQ35MBUWbeixkmu5eSG-vpQDng
+id: tufm_theme_help
+theme: tufm_theme
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

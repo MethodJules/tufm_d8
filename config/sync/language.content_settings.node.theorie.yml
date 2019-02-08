@@ -1,0 +1,11 @@
+uuid: 5873e71f-d78e-4bba-9eb4-c7fa99edfa74
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.theorie
+id: node.theorie
+target_entity_type_id: node
+target_bundle: theorie
+default_langcode: site_default
+language_alterable: false

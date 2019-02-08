@@ -1,0 +1,9 @@
+uuid: 87eb1ace-5923-4155-ac06-4a4ef13aee71
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2909uGwOeODItslMnQjZfjso9Lr6-x71TCRnUUojLC8
+id: secondary
+label: Secondary
+weight: -9

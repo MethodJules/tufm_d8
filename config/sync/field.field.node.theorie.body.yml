@@ -1,0 +1,22 @@
+uuid: 9e2dfef0-36ba-4f20-bf7c-132e4c7b1ca5
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.theorie
+  module:
+    - text
+id: node.theorie.body
+field_name: body
+entity_type: node
+bundle: theorie
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

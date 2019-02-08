@@ -1,0 +1,22 @@
+uuid: 8f87d411-525a-4250-b0b5-2e79370b3f5b
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theorie_im_kontext_von_gre
+    - node.type.theorie
+  module:
+    - text
+id: node.theorie.field_theorie_im_kontext_von_gre
+field_name: field_theorie_im_kontext_von_gre
+entity_type: node
+bundle: theorie
+label: 'Theorie im Kontext von GreenIS und des BMPN Kollaborationsprogramms'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

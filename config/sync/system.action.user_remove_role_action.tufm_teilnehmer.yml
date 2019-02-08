@@ -1,0 +1,14 @@
+uuid: f19e218d-072b-43c2-9859-2ab8e30c6a88
+langcode: de
+status: true
+dependencies:
+  config:
+    - user.role.tufm_teilnehmer
+  module:
+    - user
+id: user_remove_role_action.tufm_teilnehmer
+label: 'Den ausgewählten Benutzern die Rolle TuFM-Teilnehmer entziehen'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: tufm_teilnehmer

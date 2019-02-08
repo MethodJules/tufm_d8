@@ -1,0 +1,27 @@
+uuid: 85102074-347d-491c-acf7-ea7d93514408
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: iZJFbUPIeVLDJPlS9721vdCG14D0OUirl_RoR-Y2__8
+id: tufm_theme_page_title
+theme: tufm_theme
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/*\r\n/user/*\r\n<front>"
+    negate: true
+    context_mapping: {  }

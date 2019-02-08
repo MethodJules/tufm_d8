@@ -1,0 +1,19 @@
+uuid: 0d6ec0dd-f89d-4f86-ba08-4fdf24c14aaa
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_theorie_im_kontext_von_gre
+field_name: field_theorie_im_kontext_von_gre
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

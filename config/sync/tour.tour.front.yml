@@ -1,0 +1,102 @@
+uuid: b5020dca-0c6e-45e2-9d2a-8484d0ccc02f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - my_tour
+_core:
+  default_config_hash: 4kBuAk2yAesEAq3c-dUTOOiYF1g9DCVIQgWDQM4uH7E
+id: front
+label: 'Bienvenue sur le site'
+module: my_tour
+routes:
+  -
+    route_name: view.front.page_front
+tips:
+  front-main:
+    id: front-main
+    plugin: text
+    label: Bienvenue
+    body: 'Cette visite guidée se lance automatiquement au chargement des pages si elle est disponible. Vous pouvez désactiver ce lancement automatique depuis votre <a href="/user">compte utilisateur</a>, et relancer à tout moment une visite en cliquant sur <stong>Tour</strong> situé en haut à droite de la barre d''outils'
+    weight: 1
+  front-menu-edition:
+    id: front-menu-edition
+    plugin: text
+    label: 'Menu Edition'
+    body: 'Ce menu vous donne accès aux tableaux de bord et lien de création des différents contenus'
+    weight: 2
+    attributes:
+      data-id: toolbar-item-uas-core-toolbar-content
+  front-menu-users:
+    id: front-menu-users
+    plugin: text
+    label: 'Menu Utilisateurs'
+    body: 'Ce menu vous permet de gérer les utilisateurs du site, d''en créer de nouveaux, de leur attribuer des roles, etc.'
+    weight: 3
+    attributes:
+      data-id: toolbar-item-uas-core-toolbar-users
+  front-menu-structure:
+    id: front-menu-structure
+    plugin: text
+    label: 'Menu Structure'
+    body: 'Ce menu vous permet de gérer les éléments structurants du site, tels que les menus, le placement des blocs, la gestion des taxonomies (mots clés, catégories, rubriques)'
+    weight: 4
+    attributes:
+      data-id: toolbar-item-uas-core-toolbar-structure
+  front-general-help:
+    id: front-general-help
+    plugin: text
+    label: 'Aide contextuelle'
+    body: 'Chaque page dispose de sa propre aide contextuelle telle que vous êtes en train de la lire. Pour la consulter il vous suffir de cliquer sur le <strong>? Tour</strong>  en haut à droite'
+    weight: 5
+    location: left
+    attributes:
+      data-id: toolbar-tab-tour
+  front-general-config:
+    id: front-general-config
+    plugin: text
+    label: 'Configuration par défaut'
+    body: 'Lors de sa génération le site est livré avec une configuration par défaut, et des contenus pré-renseignés.'
+    weight: 6
+  front-general-menu:
+    id: front-general-menu
+    plugin: text
+    label: 'Menu de Navigation principal'
+    body: 'Le menu de navigation principal peut contenir des liens vers des contenus, des termes de taxonomy, ou encore certaines vues pre-paramétrés pour certaines focntionnalités types telles que les actualités, les événements, les productions. Vous pouvez gérer ce menu depuis le Menu Structutre, ou encore y accéder depuis le lien contextuel qui apparaît au survol du menu.'
+    weight: 7
+    attributes:
+      data-id: navbar
+  front-general-slider:
+    id: front-general-slider
+    plugin: text
+    label: Diaporama
+    body: 'Vous disposez d''un type de bloc vous permettant de créer des diaporamas et de les placer sur n''importe quelle page. Vous pouvez retouver les blocs diaporama créés, ainsi que tout autre type de bloc, dans la <a href="/admin/structure/block/block-content">librairie des blocs</a>.'
+    weight: 8
+    attributes:
+      data-id: block-slider-hp
+  front-general-block:
+    id: front-general-block
+    plugin: text
+    label: 'Bloc de contenu'
+    body: 'Outre les contenus que vous pouvez publier sur le site, vous pouvez aussi créer des blocs de contenu simple et les placer sur les pages qui vous conviennent. La différence majeure entre un contenu et un bloc est que les contenus dispose d''une page dédiée, avec une adresse url, tandis que les blocs doivent nécessairement être placés sur des pages existantes. '
+    weight: 8
+    attributes:
+      data-id: block-presentation-site
+  front-general-accueil:
+    id: front-general-accueil
+    plugin: text
+    label: 'Les dernières actualités'
+    body: 'Ce bloc qui remonte les derniers contenus publiés sur le site ne peut pas être enlever. Si vous ne souhaitez pas ce bloc il vous suffit de ne mettre aucun contenu en avant sur la page d''accueil. Pour ce faire, aller sur votre tableau de bord, et lancer l''aide contextuelle'
+    weight: 9
+    location: top
+    attributes:
+      data-class: view-accueil
+  front-footer:
+    id: front-footer
+    plugin: text
+    label: 'Pied de page'
+    body: 'Le pied de page contient quelques blocs de menu, dont notamment le menu liens utiles et le menu Pied de page. Vous pouvez personnaliser les liens contenus dans ces menus depuis la gestion des menus.'
+    weight: 10
+    location: top
+    attributes:
+      data-class: footer

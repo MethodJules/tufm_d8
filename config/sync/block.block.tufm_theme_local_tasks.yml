@@ -1,0 +1,22 @@
+uuid: 7e879a03-6219-4307-ab20-94d1f453dd3c
+langcode: de
+status: true
+dependencies:
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: GwMpg7mVbMlf1iJDGs3ss0xs1j-T3quw00XqRPxRcWE
+id: tufm_theme_local_tasks
+theme: tufm_theme
+region: content
+weight: 1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

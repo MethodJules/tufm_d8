@@ -1,0 +1,13 @@
+palette:
+  base: '#4d4d4d'
+  text: '#000000'
+  link: '#e3001b'
+logo: 'public://color/tufm_theme-9c78a9a2/logo.svg'
+stylesheets:
+  - 'public://color/tufm_theme-9c78a9a2/color.css'
+  - 'public://color/tufm_theme-9c78a9a2/tabs.css'
+files:
+  - 'public://color/tufm_theme-9c78a9a2/logo.svg'
+  - 'public://color/tufm_theme-9c78a9a2/logo.png'
+  - 'public://color/tufm_theme-9c78a9a2/color.css'
+  - 'public://color/tufm_theme-9c78a9a2/tabs.css'

@@ -1,0 +1,26 @@
+uuid: bcf67474-9135-42a3-9bf2-9b15ba66ab67
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: CEyqMWj_SW--5b1L77LvfNd67Ovc_x8XN4-vFR_rg5M
+id: tufm_theme_account_menu
+theme: tufm_theme
+region: leaderboard
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

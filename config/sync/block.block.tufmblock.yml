@@ -1,0 +1,20 @@
+uuid: 3de47460-262d-4564-a0f8-7c2f57f54cde
+langcode: de
+status: true
+dependencies:
+  module:
+    - tufm
+  theme:
+    - tufm_theme
+id: tufmblock
+theme: tufm_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: tufm_block
+settings:
+  id: tufm_block
+  label: Navigation
+  provider: tufm
+  label_display: visible
+visibility: {  }

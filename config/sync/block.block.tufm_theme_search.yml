@@ -1,0 +1,22 @@
+uuid: d763f8ac-e744-4aa2-8f5d-c149f1986a65
+langcode: de
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: 3RWoDzNo5KMLJBrq7l1xALJ-KXbYzBqBKqcBDxOiO_w
+id: tufm_theme_search
+theme: tufm_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

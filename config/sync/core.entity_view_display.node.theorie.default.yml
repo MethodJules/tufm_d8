@@ -1,0 +1,56 @@
+uuid: 374053bc-4c7f-43ab-b395-9c68ebb0cf12
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.theorie.body
+    - field.field.node.theorie.field_literatur
+    - field.field.node.theorie.field_posterdatei
+    - field.field.node.theorie.field_theorie_im_kontext_von_gre
+    - node.type.theorie
+  module:
+    - file
+    - text
+    - user
+id: node.theorie.default
+targetEntityType: node
+bundle: theorie
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_literatur:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_posterdatei:
+    weight: 103
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_theorie_im_kontext_von_gre:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

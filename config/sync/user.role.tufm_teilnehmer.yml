@@ -1,0 +1,48 @@
+uuid: 0764189e-ee7b-41c2-9f43-279d743ed19e
+langcode: de
+status: true
+dependencies: {  }
+id: tufm_teilnehmer
+label: TuFM-Teilnehmer
+weight: 3
+is_admin: null
+permissions:
+  - 'create bibcite_contributor'
+  - 'create bibcite_keyword'
+  - 'create bibcite_reference'
+  - 'create book bibcite_reference'
+  - 'create book_chapter bibcite_reference'
+  - 'create conference_paper bibcite_reference'
+  - 'create conference_proceedings bibcite_reference'
+  - 'create journal bibcite_reference'
+  - 'create journal_article bibcite_reference'
+  - 'create theorie content'
+  - 'create thesis bibcite_reference'
+  - 'create web_article bibcite_reference'
+  - 'delete bibcite_contributor'
+  - 'delete bibcite_keyword'
+  - 'delete own bibcite_reference'
+  - 'delete own book bibcite_reference'
+  - 'delete own book_chapter bibcite_reference'
+  - 'delete own conference_paper bibcite_reference'
+  - 'delete own conference_proceedings bibcite_reference'
+  - 'delete own journal bibcite_reference'
+  - 'delete own journal_article bibcite_reference'
+  - 'delete own theorie content'
+  - 'delete own thesis bibcite_reference'
+  - 'delete own web_article bibcite_reference'
+  - 'edit bibcite_contributor'
+  - 'edit bibcite_keyword'
+  - 'edit own bibcite_reference'
+  - 'edit own book bibcite_reference'
+  - 'edit own book_chapter bibcite_reference'
+  - 'edit own conference_paper bibcite_reference'
+  - 'edit own conference_proceedings bibcite_reference'
+  - 'edit own journal bibcite_reference'
+  - 'edit own journal_article bibcite_reference'
+  - 'edit own theorie content'
+  - 'edit own thesis bibcite_reference'
+  - 'edit own web_article bibcite_reference'
+  - 'view bibcite_contributor'
+  - 'view bibcite_keyword'
+  - 'view bibcite_reference'

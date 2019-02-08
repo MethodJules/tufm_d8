@@ -1,0 +1,18 @@
+uuid: b3659634-2bf3-4129-8c5a-24f522bf0330
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.theorie
+id: node.theorie.title
+field_name: title
+entity_type: node
+bundle: theorie
+label: 'Name der Theorie'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

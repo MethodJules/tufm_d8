@@ -1,0 +1,14 @@
+uuid: b5db40cc-ae3c-4fc0-8d33-767d2ef109cc
+name: 'Theorien und Forschungmethoden'
+mail: hoferj@uni-hildesheim.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /theorienliste
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

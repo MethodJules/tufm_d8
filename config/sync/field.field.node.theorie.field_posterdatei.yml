@@ -1,0 +1,27 @@
+uuid: e6fe34e1-272b-4aaf-9719-a103a38d8c4c
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_posterdatei
+    - node.type.theorie
+  module:
+    - file
+id: node.theorie.field_posterdatei
+field_name: field_posterdatei
+entity_type: node
+bundle: theorie
+label: Posterdatei
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

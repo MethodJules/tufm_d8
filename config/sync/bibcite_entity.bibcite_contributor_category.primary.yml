@@ -1,0 +1,9 @@
+uuid: f03bd204-2ade-4cd9-a1bd-b14d2f6ff96f
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: e50A6hIBwQod6SVapfxIQeKdc5gBVjYk073r9BLOFpw
+id: primary
+label: Primary
+weight: -10

@@ -1,0 +1,22 @@
+uuid: 885693d1-53ad-4622-b471-af51170686e7
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tufm_theme
+_core:
+  default_config_hash: Y563ILHW-O0o423qWJys2i4Yf4KC7eZofyyIqVkcAJg
+id: tufm_theme_content
+theme: tufm_theme
+region: content
+weight: 4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

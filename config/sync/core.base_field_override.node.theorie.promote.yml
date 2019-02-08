@@ -1,0 +1,22 @@
+uuid: 4d6cb1e9-2f74-4292-b78e-97fc11ecbd10
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.theorie
+id: node.theorie.promote
+field_name: promote
+entity_type: node
+bundle: theorie
+label: 'Auf der Startseite anzeigen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean
