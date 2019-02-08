@@ -1,0 +1,4 @@
+name: 'Metaphorical Knowledge Map'
+description: 'Provides a metaphorical knowledge map function'
+type: module
+core: 8.x

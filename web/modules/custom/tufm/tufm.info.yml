@@ -1,0 +1,7 @@
+name: TuFm
+description: This module provides some functions for the TuFM-Portal
+type: module
+core: 8.x
+dependencies:
+  - tour
+package: TuFM

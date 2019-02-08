@@ -1,0 +1,48 @@
+/**
+ * Custom CSS
+ * Use this file to override styles if you feel uncomfortable editing
+ * component stylesheets.
+ ============================================================================ */
+
+#edit-name {
+    border-color: black;
+}
+
+#edit-pass {
+    border-color: black;
+}
+
+#edit-submit--2 {
+    background-color: #e3001b;
+}
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"],
+input[type="email"], input[type="month"], input[type="number"], input[type="password"],
+input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"],
+input[type="week"] {
+    color: #4d4d4d;
+    border-color: black;
+    background-color: #ffffff;
+}
+
+.cke_top {
+    border-color: #4d4d4d !important;
+}
+
+.cke {
+    border-color: black !important;
+    border-top-color: black !important;
+    border-bottom-color: black !important;
+    color: #4d4d4d !important;
+}
+
+.filter-wrapper {
+    border-color: #e3001b;
+}
+
+button .button {
+    background-color: #e3001b;
+    border-color: #e3001b;
+    opacity: 0.9;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5);
+}

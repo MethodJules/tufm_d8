@@ -1,0 +1,14 @@
+metaphorical_map:
+  js:
+    js/morphmapping.js: {}
+    js/imagemap.js: {}
+    js/default_interface.js: {}
+    js/jquery.qtip.min.js: {}
+    js/lang_de.js: {}
+    js/lang_en.js: {}
+    js/morphmapping_add.js: {}
+    js/morphmapping_edit.js: {}
+    js/morphmapping_view.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

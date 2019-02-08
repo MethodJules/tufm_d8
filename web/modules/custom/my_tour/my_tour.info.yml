@@ -1,0 +1,7 @@
+name: 'My Tour'
+type: module
+description: 'Provide Tours.'
+core: 8.x
+dependencies:
+- tour
+version: 8.x-1.0
